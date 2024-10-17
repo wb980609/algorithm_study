@@ -13,8 +13,8 @@ public class MinMaxArrayList {
             arr[i] = sc.nextInt();
         }
 
-        Arrays.sort(arr);
-        System.out.println(arr[0] + " " + arr[N-1]);
+        Arrays.sort(arr);   // Arrays 내장함수 sort()를 사용하여 오름차순 정렬
+        System.out.println(arr[0] + " " + arr[N-1]);    // 오름차순 정렬이므로 첫번째 인덱스가 최소 마지막 인덱스가 최대
 
     }
 }
